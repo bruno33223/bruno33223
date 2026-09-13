@@ -1,73 +1,68 @@
 <div align="center">
 
 # Bruno Ribeiro
-### **Engenheiro de Software Sênior & Engenheiro de Sistemas de IA**
+### **Senior Software Engineer & AI Systems Architect**
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Experi%C3%AAncia-Desde%202012-blue?style=flat-square&logo=clock" alt="Desde 2012" />
-  <img src="https://img.shields.io/badge/Foco-Engenharia%20de%20IA%20%26%20Sistemas%20Nativos-orange?style=flat-square&logo=openai" alt="Foco IA & Sistemas" />
-  <img src="https://img.shields.io/badge/Ambiente-Linux%20%26%20Cross--Platform-black?style=flat-square&logo=linux" alt="Linux" />
-  <img src="https://img.shields.io/badge/Status-Dispon%C3%ADvel%20para%20Projetos-success?style=flat-square" alt="Status" />
+  <img src="https://img.shields.io/badge/Building%20Since-2012-blue?style=flat-square&logo=clock" alt="Since 2012" />
+  <img src="https://img.shields.io/badge/Focus-AI%20Engineering%20%26%20Systems-orange?style=flat-square&logo=openai" alt="Focus AI & Systems" />
+  <img src="https://img.shields.io/badge/Environment-Linux%20%26%20Cross--Platform-black?style=flat-square&logo=linux" alt="Linux" />
+  <img src="https://img.shields.io/badge/Status-Available%20for%20Projects-success?style=flat-square" alt="Status" />
 </p>
 
 <p align="center">
-  <i>Construindo sistemas de alta performance, ferramentas de compilação/runtime e arquiteturas autônomas de agentes de IA com rigor técnico e foco em engenharia sem atalhos.</i>
+  <i>Building high-performance native systems, developer tooling, and autonomous AI agent architectures since 2012. No shortcuts, pure engineering.</i>
 </p>
 
 ---
 
 </div>
 
-## 👨‍💻 Sobre Mim
+## 👨‍💻 About Me
 
-Atuando profissionalmente no desenvolvimento de software desde **2012**, acumulo mais de uma década de vivência prática acompanhando a evolução dos paradigmas da computação moderna — desde o desenvolvimento web e de sistemas desktop nativos até arquiteturas distribuídas e o estado da arte em **Engenharia de Sistemas de IA**.
+Software developer since **2012**, with over a decade of hands-on experience across the entire computing stack — from low-level systems and desktop runtimes to distributed cloud services and modern **AI Systems Engineering**.
 
-- **Engenharia de IA & Agentes Autônomos**: Especialista em arquiteturas multiagentes orientadas a especificação (*Spec-Driven Development*), implementação de servidores e ferramentas no padrão **Model Context Protocol (MCP)**, indexação e análise sintática de código (AST), e loops de validação adversarial (*Gauntlet Loops / Harsh Critics*).
-- **Engenharia de Baixo e Alto Nível (Poliglota)**: Experiência sólida em linguagens que exigem controle fino de memória, concorrência e tipagem estrita (**Rust**, **C# / .NET**, **C/C++**), combinada com agilidade no desenvolvimento de serviços assíncronos e APIs em **Python** e interfaces modernas e fluidas em **TypeScript** e **React**.
-- **Filosofia de Engenharia**: Construção de software robusto, resiliente e escalável. Sem gambiarras ou soluções paliativas — priorizando sempre a melhor arquitetura técnica, telemetria em tempo real, segurança de tipos e contratos bem definidos.
-
----
-
-## 🚀 Projetos em Destaque & Competências Técnicas
-
-Abaixo estão três projetos autorais que sintetizam minhas competências em engenharia de sistemas, desenvolvimento de ferramentas desktop complexas e orquestração autônoma de inteligência artificial:
-
-### 1. 🤖 [agent-cockpit](https://github.com/bruno33223/agent-cockpit) — *Mission Control & Orquestrador de Agentes Autônomos de IA*
-> Central de comando e telemetria para frotas de agentes autônomos de IA integrados via Model Context Protocol (MCP).
-
-* **Arquitetura Multiagente 3x3**: Governação de frotas operando em paralelo com agentes executores emparelhados com revisores adversariais (*Harsh Critics*), garantindo validação estrita antes de commits ou merges.
-* **Servidor MCP Nativo**: Desenvolvimento de protocolo de comunicação JSON-RPC com gerenciamento de estado atômico, injeção cirúrgica de contexto e barramento de ferramentas (Tools & Resources).
-* **Code Intelligence via AST**: Varredura automatizada da árvore sintática abstrata do código para análise de impacto de símbolos e geração de contexto sem saturação de tokens da LLM.
-* **Telemetria em Tempo Real**: Pipeline assíncrono baseado em **FastAPI**, **WebSockets** e schemas **Pydantic** para monitoramento contínuo do ciclo de desenvolvimento, com integração nativa ao sistema operacional (Linux XDG Autostart).
-* **Tecnologias**: `Python 3.11+` • `FastAPI` • `WebSockets` • `Model Context Protocol (MCP)` • `TypeScript` • `Pydantic` • `Linux XDG / Shell`
+- **AI & Autonomous Agents**: Specialist in Spec-Driven multi-agent orchestration, **Model Context Protocol (MCP)** tool ecosystems, AST codebase intelligence, and adversarial quality loops (*Gauntlet Loops*).
+- **Polyglot Systems Engineering**: Deep expertise in memory-efficient, strongly-typed languages (**Rust**, **C# / .NET**, **C/C++**) paired with high-velocity async backends (**Python / FastAPI**) and modern reactive frontends (**TypeScript / React**).
+- **Engineering Philosophy**: Clean architectures, strong typed contracts, real-time telemetry, and resilient software designed for production — without hacks or quick fixes.
 
 ---
 
-### 2. 🎮 [MonoGameMaker](https://github.com/bruno33223/MonoGameMaker) — *IDE & Orchestrator Code/AI-First para MonoGame*
-> IDE desktop de alto desempenho projetada para delegar 100% da lógica e comportamento de entidades a código C# limpo gerado por desenvolvedores ou agentes de IA.
+## 🚀 Featured Projects
 
-* **Dynamic Binary Hot Reload (.NET 8)**: Implementação de recarga dinâmica em tempo de execução utilizando `AssemblyLoadContext` customizado para carregar assemblies a partir de streams de bytes em memória. Elimina bloqueios físicos de arquivos no disco (*write locks*), permitindo compilações em background sem travamentos.
-* **Live Tweaking via Reflection**: Inspeção em tempo real e mutação direta de campos, propriedades e variáveis das entidades durante a simulação por meio de uma interface Immediate Mode (**ImGui.NET**).
-* **Sistemas Reativos e Thread Safety**: Cache reativo de arquivos baseado em `FileSystemWatcher` thread-safe com janela de debounce de 150ms e troca atômica por travamento de referências, evitando oscilações na taxa de quadros (*frame drops*).
-* **P/Invoke & Interop de Baixo Nível**: Integração direta com `cimgui.dll` via P/Invoke para gerenciamento cirúrgico de layouts de janelas e docking nativo.
-* **Tecnologias**: `C#` • `.NET 8` • `MonoGame` • `ImGui.NET` • `HLSL` • `P/Invoke Interop` • `JSON Schema`
+### 🤖 [agent-cockpit](https://github.com/bruno33223/agent-cockpit) — *Mission Control & Autonomous Agent Orchestrator*
+> Mission control center and telemetry orchestrator for autonomous AI agent fleets.
 
----
-
-### 3. 📋 [Linux-ClipBoard](https://github.com/bruno33223/Linux-ClipBoard) — *Gerenciador de Área de Transferência Nativo e Ultra-Leve*
-> Utilitário desktop nativo publicado na **Snap Store**, com suporte a **AppImage** e **Deb**, otimizado para latência imperceptível e baixo consumo de memória.
-
-* **Backend Nativo em Rust**: Construído sobre o **Tauri v2**, garantindo inicialização quase instantânea e consumo mínimo de RAM quando comparado a soluções baseadas em Electron.
-* **Integração Profunda com o Desktop Linux**: Comportamento de instância única (*single-instance IPC*), minimização para a área de notificação (*System Tray*) e ativação dinâmica por atalho global de teclado (`Super+V`) com posicionamento seguindo o cursor.
-* **Interface Moderna e Reativa**: Frontend desenvolvido em **React**, **TypeScript** e **TailwindCSS**, com reordenação de itens via arrastar e soltar (`@dnd-kit`), fixação de itens prioritários e persistência segura.
-* **Automação de Build e Empacotamento**: Pipelines de CI/CD em GitHub Actions para compilação multiplataforma e publicação de pacotes `.snap`, `.deb` e `.AppImage`.
-* **Tecnologias**: `Rust` • `Tauri v2` • `React 18` • `TypeScript` • `TailwindCSS` • `Linux GTK / WebKit` • `Snapcraft`
+* **3x3 Agent Fleet Orchestration**: Governs concurrent builder and adversarial critic agent pairs with strict verification gates prior to any code integration.
+* **Native MCP Protocol Server**: Full JSON-RPC protocol implementation providing atomic state control, context injection, and dynamic tool orchestration.
+* **Code Intelligence & Telemetry**: AST-based symbol impact analysis coupled with real-time **FastAPI** + **WebSockets** streaming and Linux XDG autostart integration.
+* **Tech Stack**: `Python 3.11+` • `FastAPI` • `WebSockets` • `Model Context Protocol (MCP)` • `TypeScript` • `Pydantic`
 
 ---
 
-## 🛠️ Matriz de Habilidades & Tecnologias
+### 🎮 [MonoGameMaker](https://github.com/bruno33223/MonoGameMaker) — *Code/AI-First Desktop Game Engine IDE*
+> High-performance C# desktop IDE delegating 100% of entity behavior to clean, compile-ready code generated by developers or AI agents.
 
-### Linguagens & Core
+* **Dynamic Binary Hot Reload**: Implements runtime assembly loading via .NET 8 `AssemblyLoadContext` byte streams, avoiding disk locks for crash-free background recompilation.
+* **Live Tweaking via Reflection**: Real-time state inspection and field mutation of active entities inside an Immediate Mode UI (**ImGui.NET**).
+* **Reactive Systems**: Thread-safe debounced `FileSystemWatcher` (150ms window) with reference swapping, combined with native `cimgui.dll` P/Invoke bindings.
+* **Tech Stack**: `C#` • `.NET 8` • `MonoGame` • `ImGui.NET` • `HLSL` • `P/Invoke Interop`
+
+---
+
+### 📋 [Linux-ClipBoard](https://github.com/bruno33223/Linux-ClipBoard) — *Ultra-Lightweight Native Linux Clipboard Manager*
+> Native clipboard manager published on the **Snap Store**, **AppImage**, and **Deb** packages, optimized for minimal resource usage.
+
+* **Rust-Powered Systems Backend**: Built on **Tauri v2**, delivering near-instant startup and a fraction of the memory footprint of Electron alternatives.
+* **Deep Linux Desktop Integration**: Single-instance IPC toggle, System Tray daemon, and global hotkey (`Super+V`) with cursor-following positioning.
+* **Modern Fluid UI**: **React 18**, **TypeScript**, and **TailwindCSS** with drag-and-drop item reordering (`@dnd-kit`) and pin support.
+* **Tech Stack**: `Rust` • `Tauri v2` • `React 18` • `TypeScript` • `TailwindCSS` • `Linux GTK / WebKit` • `Snapcraft`
+
+---
+
+## 🛠️ Skills & Technologies
+
+### Languages & Core
 <p>
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
@@ -76,28 +71,28 @@ Abaixo estão três projetos autorais que sintetizam minhas competências em eng
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/Bash%20/%20Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
 </p>
 
-### Engenharia de IA & Sistemas de Agentes
+### AI Engineering & Systems
 <p>
   <img src="https://img.shields.io/badge/Model%20Context%20Protocol%20(MCP)-101828?style=flat-square&logo=anthropic&logoColor=white" alt="MCP" />
   <img src="https://img.shields.io/badge/Autonomous%20Agent%20Fleets-24292e?style=flat-square&logo=probot&logoColor=white" alt="Autonomous Agents" />
   <img src="https://img.shields.io/badge/Spec--Driven%20Development-0052CC?style=flat-square" alt="Spec-Driven" />
   <img src="https://img.shields.io/badge/AST%20Code%20Analysis-6f42c1?style=flat-square" alt="AST Analysis" />
-  <img src="https://img.shields.io/badge/Adversarial%20Quality%20Gates%20(Gauntlet)-D9381E?style=flat-square" alt="Gauntlet Loop" />
-  <img src="https://img.shields.io/badge/RAG%20%26%20Vector%20Contexts-008080?style=flat-square" alt="RAG" />
+  <img src="https://img.shields.io/badge/Adversarial%20Gates%20(Gauntlet)-D9381E?style=flat-square" alt="Gauntlet Loop" />
+  <img src="https://img.shields.io/badge/RAG%20%26%20Contexts-008080?style=flat-square" alt="RAG" />
   <img src="https://img.shields.io/badge/Local%20LLMs%20(Ollama)-black?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
 </p>
 
-### Sistemas, Desktop & Game Dev
+### Systems, Desktop & Runtimes
 <p>
   <img src="https://img.shields.io/badge/Tauri%20v2-24C8DB?style=flat-square&logo=tauri&logoColor=black" alt="Tauri" />
   <img src="https://img.shields.io/badge/.NET%208%20/%20CLR-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET 8" />
   <img src="https://img.shields.io/badge/MonoGame-E03A3E?style=flat-square" alt="MonoGame" />
   <img src="https://img.shields.io/badge/Dear%20ImGui-000000?style=flat-square" alt="ImGui" />
-  <img src="https://img.shields.io/badge/Linux%20Desktop%20Internals-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux Internals" />
-  <img src="https://img.shields.io/badge/P%2FInvoke%20%26%20Native%20Interop-333333?style=flat-square" alt="Native Interop" />
+  <img src="https://img.shields.io/badge/Linux%20Internals-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux Internals" />
+  <img src="https://img.shields.io/badge/P%2FInvoke%20Interop-333333?style=flat-square" alt="Native Interop" />
 </p>
 
 ### Web, Backend & Tooling
@@ -114,32 +109,7 @@ Abaixo estão três projetos autorais que sintetizam minhas competências em eng
 
 ---
 
-## 🏛️ Princípios de Engenharia
-
-1. **Sem Gambiarras**: Soluções arquitetadas com base em contratos firmes, tipagem sólida e padrões comprovados da indústria.
-2. **Eficiência de Recursos**: Respeito pelo hardware — uso preferencial de linguagens compiladas e otimização de ciclos de CPU e alocações de memória.
-3. **Automação & Evidências**: Nada é dado como concluído sem evidências empíricas de funcionamento (testes unitários, testes de integração e validação em runtime).
-
----
-
-<details>
-<summary><b>🇺🇸 View Profile in English</b></summary>
-<br>
-
-### Senior Software Engineer & AI Systems Engineer
-
-Software developer with over a decade of hands-on experience (since **2012**), specializing in **AI Agent Systems**, **Low-Level/Desktop Engineering**, and **Polyglot Architecture** (Rust, C#, Python, TypeScript).
-
-#### Flagship Projects:
-- **[agent-cockpit](https://github.com/bruno33223/agent-cockpit)**: Autonomous AI agent orchestration cockpit powered by the Model Context Protocol (MCP), featuring 3x3 parallel agent fleets, AST codebase analysis, and adversarial verification loops (*Gauntlet Loops*).
-- **[MonoGameMaker](https://github.com/bruno33223/MonoGameMaker)**: High-performance C# desktop IDE and runtime orchestrator for MonoGame, featuring dynamic in-memory hot reload via .NET 8 `AssemblyLoadContext`, reflection-based live inspection in ImGui.NET, and reactive thread-safe filesystem caching.
-- **[Linux-ClipBoard](https://github.com/bruno33223/Linux-ClipBoard)**: Ultra-lightweight native Linux clipboard manager built with Tauri v2 (Rust backend) and React/Tailwind, distributed via Snap Store, AppImage, and Deb packages.
-
-</details>
-
----
-
-## 📬 Contato & Conexões
+## 📬 Connect
 
 - **GitHub**: [@bruno33223](https://github.com/bruno33223)
-- **Email**: [brunugui7l@gmail.com](mailto:brunugui7l@gmail.com)
+- **Email**: [brunogrti@gmail.com](mailto:brunogrti@gmail.com)
